@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'pages')));
 app.get("/contact", (req, res) => {
     res.sendFile(__dirname + "/pages/contact.html");
 });
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
     res.sendFile(__dirname + "/pages/main.html");
 });
 
