@@ -14,8 +14,7 @@ app.get("/home", (req, res) => {
     res.sendFile(__dirname + "/pages/main.html");
 });
 
-app.listen(port, (err) =>
-    err
-        ? console.error(err)
-        : console.log(`this server is running on port : ${port}`)
-);
+PORT = 5000;
+app.listen(process.env.PORT || PORT, (err) => {
+    err ? console.log(err) : console.log(`server is running on ${PORT}`);
+});
