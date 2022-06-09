@@ -710,7 +710,7 @@ input:focus{
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('./photos/IMG_4057.jpeg');
+    background-image: url('/photos/IMG_4057.jpeg');
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
